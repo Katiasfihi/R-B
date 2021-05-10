@@ -1,7 +1,12 @@
-.container {
+.card {
     margin: 2rem;
 
-    &__h1  {
+    &__card-image {
+        width: 380px;
+        height: 250px;  
+    }
+
+    &__card-title  {
         color: #000;
         font-family: 'Playfair Display','Helvetica Neue',Helvetica,Arial,sans-serif;
         font-style: normal;
@@ -10,7 +15,7 @@
         margin-bottom: -1rem;
     }
 
-    &__para {
+    &__card-subtitle {
         color: #000;
         font-family: 'Playfair Display','Helvetica Neue',Helvetica,Arial,sans-serif;
         font-style: normal;
@@ -24,13 +29,8 @@
         font-style:normal;
         font-weight: bolder;
         font-size: 1.15rem;
+        text-decoration: none;
     }
-}
-
-img {
-    width: 380px;
-    height: 250px;
-    max-width: 100%;    
 }
 
 img:hover {
