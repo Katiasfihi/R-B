@@ -1,0 +1,44 @@
+.container {
+    margin: 2rem;
+
+    &__h1  {
+        color: #000;
+        font-family: 'Playfair Display','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5rem;
+        margin-bottom: -1rem;
+    }
+
+    &__para {
+        color: #000;
+        font-family: 'Playfair Display','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    &__read-more {
+        color: #000;
+        font-family: 'Playfair Display','Helvetica Neue',Helvetica,Arial,sans-serif;
+        font-style:normal;
+        font-weight: bolder;
+        font-size: 1.15rem;
+    }
+}
+
+img {
+    width: 380px;
+    height: 250px;
+    max-width: 100%;    
+}
+
+img:hover {
+    transform: scale(1.01);
+}
+
+@media only screen and (max-width: 1000px) {
+    .body-container {
+        flex-direction: column;
+    }
+}
